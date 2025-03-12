@@ -174,7 +174,7 @@ const game = new Game(maze, { x: 5, y: 0 }, { x: 2, y: 4 });
 // Debug no console
 console.log("=== Simulação do Fantasma do Pac-Man ===\n");
 function updateGame() {
-    let ans = prompt("Digite SAIR para encerrar");
+    let ans = prompt("Aperte Cancelar para encerrar ou OK para continuar");
     console.log(ans);
     game.update();
     if (ans === null)
